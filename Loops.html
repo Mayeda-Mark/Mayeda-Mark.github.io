@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="loops.js"></script>
+	<title>Loops Etc Example Page</title>
+</head>
+<body>
+	<h1>Loop and Conditional statement</h1>
+		<form id="form1"></form>
+			<div>How large would you like your multiplication table? (4 will make 4X4)<input type="text" id="num">
+			<input type="button" value="submit" onclick="multTable('error1', 'multTable');" >
+				<span id="error1" style="color: red; visibility: hidden;">Please Enter a Positive Number</span>
+				<span id="multTable"></span></div>
+		<form id="form2"></form>
+			<div>Enter a number and the number of multiples you would like to view</div>
+			<br>
+			Number:<input type="text" id="multNum">
+			Range:<input type="text" id="multRange">
+			<input type="button" value="submit" onclick="multRange('error2', 'displayRange')">
+				<span id="error2" style="color: red; visibility: hidden;">Please Enter a Positive Number</span>
+				<span id="displayRange"></span>
+</body>
+</html>
