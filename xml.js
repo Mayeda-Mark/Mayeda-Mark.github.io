@@ -7,6 +7,6 @@ function request() {
 			document.getElementById("text").innerHTML = this.responseText;
 		}
 	};
-	xttp.open("GET", "test.txt", true);
+	xhttp.open("GET", "test.txt", true);
 	xhttp.send();
 }
