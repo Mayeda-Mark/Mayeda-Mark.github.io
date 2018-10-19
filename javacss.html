@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Java CSS Manipulation</title>
+	<link rel="stylesheet" type="text/css" href="javacss.css">
+	<script type="text/javascript" src="javacss.js"></script>
+</head>
+<body>
+	<div class="class1" id="block1">Here are some words.</div>
+	<div class="class2" id="block2">1, 2, 3, 4, 5.</div>
+	<div class="class1" id="block3">Those were numbers.</div>
+	<div class="class2" id="block4">6, 7, 8, 9, 10.</div>
+	<form id="sentenceBG">
+		Select a background color for the sentences:<select>
+			<option value="purple">Purple</option>
+			<option value="red">Red</option>
+			<option value="blue">Blue</option>
+			<option value="green">Green</option>
+			<option value="yellow">Yellow</option>
+		</select>
+		<br>
+		<button type="button" onclick="sentenceBackground(getElementById('sentenceBG').value);">Submit</button>
+	</form>
+	<form>
+		<br>
+		Select a background color for the numbers:<select>
+			<option value="purple">Purple</option>
+			<option value="red">Red</option>
+			<option value="blue">Blue</option>
+			<option value="green">Green</option>
+			<option value="yellow">Yellow</option>
+		</select>
+		<br>
+	</form>
+</body>
+</html>
