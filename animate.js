@@ -1,13 +1,12 @@
 //animate.js
 
 var isRunning = false;
-var animation = document.querySelector(".animation");
 
 function startStop() {
 	if (isRunning) {
-		animation.style.animationPlayState = "paused";
+		document.getElementbyId('animation').style.animationPlayState = "paused";
 	}
 	else {
-		animation.style.animationPlayState = "running";
+		document.getElementbyId('animation').style.animationPlayState = "running";
 	}
 }
