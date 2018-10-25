@@ -1,7 +1,7 @@
 //animate.js
 
 var isRunning = false;
-var animation = document.querySelector("#animation")
+var animation = document.querySelector(".animation")
 
 function startStop() {
 	if (isRunning) {
