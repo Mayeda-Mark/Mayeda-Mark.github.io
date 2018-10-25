@@ -5,6 +5,7 @@
 	animation-name: animation;
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
+	animation-play-state: paused;
 	position: relative;
 }
 
