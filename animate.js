@@ -4,9 +4,11 @@ var isRunning = false;
 
 function startStop() {
 	if (isRunning) {
-		document.getElementbyId('animation').style.animationPlayState = "paused";
+		document.getElementById('animation').style.animationPlayState = "paused";
+		isRunning = false;
 	}
 	else {
-		document.getElementbyId('animation').style.animationPlayState = "running";
+		document.getElementById('animation').style.animationPlayState = "running";
+		isRunning = true;
 	}
 }
