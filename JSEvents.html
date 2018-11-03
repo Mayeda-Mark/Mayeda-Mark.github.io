@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="JSEvents.js"></script>
+	<title>JavaScript Events</title>
+</head>
+<body onload="something();">
+	<div id="onload" ;"></div>
+	<br>
+	<div id="click">Click here</div>
+		<br>
+		<span id="clickReturn"></span>	
+		<br>
+	
+	<div id="touch" ontouchstart="touchStart()" ontouchend="touchEnd()">
+		Tap here
+		<br>
+		<span id="tap"></span>
+		<br>
+	</div>
+	<div>
+		<br>
+		Select a color to change the font color.<select id="select1" onchange="fontColor();">
+			<option value="" selected>-Select-</option>
+			<option value="purple">Purple</option>
+			<option value="red">Red</option>
+			<option value="blue">Blue</option>
+			<option value="green">Green</option>
+			<option value="yellow">Yellow</option>
+		</select>
+		<br>
+		<span id="fontFill">Here are some words.</span>
+	</div>
+</body>
+</html>
