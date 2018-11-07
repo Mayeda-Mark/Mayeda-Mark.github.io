@@ -1,0 +1,35 @@
+#example1 {
+    transition: font-size 2s, color 2s, background-color, 2s;
+
+}
+#example1:hover {
+	font-size: 100px;
+	color: red;
+	background-color: blue;
+}
+
+#example2 {
+    width: 150px;
+    height: 80px;
+  	display: flex;
+  	align-items: center;
+	transition: all 4s;
+	transition-timing-function: ease-in-out;
+}
+#example2:hover {
+	transform: rotate(1080deg);
+}
+
+#example3 {
+    width: 150px;
+    height: 80px;
+    vertical-align: center;
+	transition: all 2s;
+  	display: flex;
+  	align-items: center;
+}
+#example3:hover {
+	transform: skewX(-20deg);
+	transform: skewY(-20deg);
+	font-style: italic;
+}

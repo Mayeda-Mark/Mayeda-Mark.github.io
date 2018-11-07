@@ -1,0 +1,42 @@
+#animate {
+    width: 100px;
+    height: 100px;
+	animation-name: animation;
+	animation-play-state: paused;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	position: relative;
+
+}
+
+@keyframes animation {
+	0% {
+		color: black;
+		left: 0px;
+		top: 0px;
+	}
+	25% {
+		color: blue;
+		left: 325px;
+		top: 0px;
+		transform: rotate(360deg);
+	}
+	50% {
+		color: red;
+		left: 0px;
+		top: 325px;
+		transform: rotate(720deg);
+	}
+	75% {
+		color: purple;
+		left: 325px;
+		top: 325px;
+		transform: rotate(1080deg);
+	}
+	100% {
+		color: black;
+		left: 0px;
+		top: 0px;
+		transform: rotate(1440deg);
+	}
+}

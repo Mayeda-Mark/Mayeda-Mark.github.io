@@ -1,0 +1,41 @@
+#example1 {
+    width: 200px;
+    height: 100px;
+  	display: flex;
+  	align-items: center;
+	transition: all 4s;
+}
+#example1:hover {
+	transform: translate(500px, 0px);
+}
+
+#example2 {
+    width: 200px;
+    height: 100px;
+  	display: flex;
+  	align-items: center;
+	transition: all 2s;
+}
+#example2:hover {
+	transform: scale(2,2);
+}
+
+#example3 {
+    width: 200px;
+    height: 100px;
+  	display: flex;
+  	align-items: center;
+}
+#example3:hover {
+	transform: scale(.5, .5);
+}
+
+#example4 {
+    width: 200px;
+    height: 100px;
+  	display: flex;
+  	align-items: center;
+}
+#example4:hover {
+	transform: rotateX(180deg);
+}
