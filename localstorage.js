@@ -14,7 +14,7 @@ function setName() {
 }
 
 function sayName() {
-	if (localStorage.name != "") {
+	if (localStorage.name) {
 		document.getElementById('nameResult').innerHTML = "Hello " + localStorage.getItem("name");
 	}
 }
