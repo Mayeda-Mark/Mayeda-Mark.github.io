@@ -4,7 +4,15 @@
 	<script type="text/javascript" src="localstorage.js"></script>
 	<title>Local Storage</title>
 </head>
-<body>
+<body onload="sayName();">
+	<div>
+		<form id="nameInput">
+			Please Enter Your Name:<input type="text" id="name">
+			<button type="button" onclick="setName();">Submit</button>
+		</form>
+		<span id="nameResult"></span>
+	</div>
+	<br>
 	<div id="pickACard">Pick a card
 		<form>
 			<select id="card">
@@ -21,5 +29,6 @@
 		<span id="yourCard"></span>
 	</div>
 	<br>
+	<div></div>
 </body>
 </html>
