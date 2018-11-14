@@ -29,3 +29,21 @@ function generate1() {
 	btn.appendChild(t);
 	document.getElementById('fill1').appendChild(btn);
 }
+
+function addList() {
+	var newItem = document.createElement("LI");
+	var item = document.getElementById('add').value;
+	var textnode = document.createTextNode(item);
+	newItem.appendChild(textnode);
+
+	var list = document.getElementById('list');
+	list.insertBefore(newItem, list.childNodes[0]);
+	document.getElementById('add').value = "";
+}
+
+function removeList() {
+	var list = document.getElementById('list');
+	while (list.hasChildNodes()) {
+		list.removeChild(list.childNodes[0]);
+	}
+}
