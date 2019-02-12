@@ -1,0 +1,38 @@
+/*** Weekcss ***/
+#screen {
+	height: 500px;
+	width: 300px;
+	border: solid;
+}
+
+#time {
+	text-align: center;
+	font-size: 80px;
+}
+
+#lap {
+	height: 200px;
+	width: 300px;
+}
+
+#buttons {
+	text-align: center;
+}
+
+.btn {
+	height: 30px;
+	width: 100px;
+	text-align: center;
+}
+
+#startPause {
+	background-color: #60EF83;
+}
+
+#reset {
+	background-color: #F54A64;
+}
+
+#lapbtn {
+	background-color: #F5B84A;
+}
